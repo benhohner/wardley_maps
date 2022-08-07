@@ -1,0 +1,37 @@
+title prodct that organically grows
+component customers with problem [0.96, 0.62] label [6, -24]
+component not problem [0.90, 0.30]
+component solution discovery [0.82, 0.44] label [10, -27]
+pipeline solution discovery [0.15, 0.75]
+component search [0.81, 0.64] label [14, 32]
+
+component solution discovery skill [0.74, 0.44] label [10, -27]
+pipeline solution discovery skill [0.15, 0.75]
+
+component prodct [0.69, 0.39]
+component markting [0.60, 0.38] label [8, -2]
+component employees [0.61, 0.29] label [-73, -5]
+component word of mouth [0.81, 0.56] label [39, -25]
+customers with problem->not problem
+not problem->solution discovery
+not problem->prodct
+prodct->markting
+component website [0.43, 0.38] label [9, -3]
+search->website
+component shareable identifier [0.67, 0.72] label [5, -10]
+word of mouth->shareable identifier
+component domain name [0.37, 0.71]
+shareable identifier->domain name
+website->domain name
+markting->website
+prodct->employees
+
+annotation 1 [0.87, 0.59] Product needs customers who are good at finding it
+annotation 2 [0.49, 0.21] 
+annotations [0.14, 0.02]
+
+component ads? [0.47, 0.31] label [-37, 11]
+markting->ads?
+component ad viewing [0.81, 0.68]
+ad viewing->ads?
+ads?->website

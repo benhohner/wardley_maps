@@ -1,0 +1,80 @@
+// SETUP
+title ben health
+y-axis ->->
+
+// COMPONENTS
+component ben [1.00, 0.45]
+
+ben->mental/emotional health
+component mental/emotional health [0.95, 0.35] label [-67, -24]
+
+  mental/emotional health->no pain
+component no pain [0.85, 0.36] label [9, -4]
+
+    no pain->bloat free
+    component bloat free [0.58, 0.35] label [-65, 3]
+      
+      bloat free->experimentation
+      component experimentation [0.22, 0.20] label [25, -16]
+
+      bloat free->no bacteria in stomach?
+      component no bacteria in stomach? [0.41, 0.25] label [-62, -32]
+        
+        no bacteria in stomach?->teethbrushing
+        component teethbrushing [0.30, 0.33] label [14, -3]
+
+
+      bloat free->belching
+
+
+        low sulphur->access to vegetables
+
+    no pain->injury healing
+    component sleep [0.69, 0.57] label [20, 3]
+
+      sleep->bloat free
+      sleep->experimentation
+
+        exercise->not reinjury
+        component not reinjury [0.70, 0.65] label [12, 8]
+
+          not reinjury->bloat free
+          
+          not reinjury->belching
+component belching [0.83, 0.35] label [-63, 5]
+
+            belching->low inflammation
+            component low inflammation [0.78, 0.40] label [13, -33]
+                      
+              low inflammation->healthy immune response
+component healthy immune response [0.76, 0.46] label [9, -22]
+                
+                healthy immune response->access to gf food
+                healthy immune response->sleep
+          
+
+
+  mental/emotional health->quality of life
+  component quality of life [0.91, 0.24] label [-55, -16]
+
+    quality of life->sleep
+    quality of life->no pain
+
+
+  mental/emotional health->sleep
+
+ben->physical health
+component physical health [0.94, 0.61] label [3, -14]
+
+  physical health->injury healing
+  component injury healing [0.74, 0.50] label [11, 2]
+
+    injury healing->exercise
+
+    injury healing->not reinjury
+    
+    injury healing->sleep
+        component access to gf food [0.26, 0.50]
+
+
+low inflammation->no bacteria in stomach?
