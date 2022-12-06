@@ -1,0 +1,69 @@
+singithi [96.9,44.9]
+
+singithi.sustenance
+sustenance [69.6,73.0]
+
+singithi.health
+health [87.1,67.3]
+
+singithi.companionship
+companionship [90.4,54.1]
+
+singithi.romantic love
+romantic love [85.9,41.1]
+
+singithi.shelter
+shelter [81.9,42.2]
+
+singithi.new experiences
+new experiences [70.6,52.2]
+
+sustenance.money
+money [29.3,51.7]
+
+health.sustenance
+health.exercise
+exercise [76.3,68.3]
+
+health.sleep
+sleep [75.2,54.6]
+
+health.enjoyment
+enjoyment [76.9,36.6]
+
+money.percieved value
+percieved value [17.0,55.7]
+
+companionship.dedicated time
+dedicated time [47.8,30.3]
+
+shelter.money
+
+new experiences.dedicated time
+new experiences.money
+
+new experiences.courage
+courage [56.9,42.0]
+
+new experiences.curiosity
+curiosity [51.9,41.8]
+
+enjoyment.doing art
+doing art [70.2,36.6]
+
+doing art.equipment
+equipment [63.4,35.4]
+
+doing art.space
+space [44.3,22.6]
+
+doing art.mental bandwidth
+mental bandwidth [58.7,25.2]
+
+doing art.dedicated time
+
+equipment.money
+space.money
+
+mental bandwidth.-stress
+-stress [50.3,19.0]
